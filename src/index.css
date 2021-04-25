@@ -1,0 +1,147 @@
+:root {
+  --background-dark: #1C232E;
+  --background-light: #222A36;
+  --primary-color: #FF6D70;
+  --white: #ECECEE;
+  --icon-light: #6E7788;
+  --contrast-light: #3E4756;
+}
+
+
+html, body {
+  margin: 0;
+  font-size: 16px;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 300;
+  color: var(--white);
+}
+
+/* --------------------- General --------------- */
+
+.section-header {
+  font-size: 3rem;
+  font-weight: 600;
+  text-align: center;
+  padding-top: 0.4em;
+}
+
+.section-header div {
+  margin: 0 auto;
+}
+
+.underline {
+  height: 1px;
+  width: 6rem;
+  background-color: var(--primary-color);
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.home {
+  background-color: var(--background-dark);
+  height: 100vh;
+  width: 100%;
+}
+
+/* ---------- Nav bar ------- */
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+}
+
+.navigation {
+  display: flex;
+  width: 50%;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navigation {
+  margin-right: 2.5em;
+}
+
+.navigation ul {
+  list-style-type: none;
+  display: flex;
+  padding-left: 0;
+}
+
+.logo {
+  width: 2rem;
+  height: 2rem;
+  background-color: var(--primary-color);
+  padding: 1em;
+  margin: 1em;
+  border-radius: 1rem;
+}
+
+.link {
+  font-size: 1.2vmax;
+  padding: 1em;
+}
+
+/* -------- Home container ------------ */
+
+.home-container {
+  display: flex;
+}
+
+.welcome {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+}
+
+.sign {
+  padding: 7vmax 4vmax 7vmax;
+}
+
+
+/* -------- Social Icons -------------- */
+
+.social-container {
+  display: flex;
+  justify-content: space-between;
+  width: 10%;
+  padding-left: 4vmax;
+}
+
+.social-icon {
+  padding-right: 2em;
+}
+
+/* ----------------- about ----------------------- */
+
+.about {
+  background-color: var(--background-light);
+}
+
+.about-container {
+  display: flex;
+  justify-content: space-around;
+  padding: 6vmax;
+}
+
+.about-element {
+  text-align: justify;
+  width: 20%;
+}
+
+.tech {
+  background-color: var(--background-dark);
+  height: 100vh;
+  width: 100%;
+}
+
+.projects {
+  background-color: var(--background-light);
+  height: 100vh;
+  width: 100%;
+}
+
+.contact {
+  background-color: var(--background-dark);
+  height: 100vh;
+  width: 100%;
+}
