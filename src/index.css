@@ -22,10 +22,22 @@ html, body {
 .profile-picture {
   display: flex;
   width: 30%;
+  /* padding-left: 4vmax; */
   justify-content: center;
+  margin: 0 auto;
 }
 
 /* --------------------- General --------------- */
+
+.social-container {
+  display: flex;
+  justify-content: space-between;
+  width: 10%;
+}
+
+.social-icon {
+  padding-right: 2em;
+}
 
 .section-header {
   font-size: 3rem;
@@ -87,29 +99,50 @@ html, body {
   margin-top: 3em;
 }
 
-.welcome {
+.home-content {
   display: flex;
   flex-direction: column;
   width: 50%;
 }
 
-.sign {
-  padding: 7vmax 4vmax 7vmax;
+.home-title,
+.home-name,
+.home-description,
+.home-buttons {
+  width: 70%;
 }
 
-
-/* -------- Social Icons -------------- */
-
-.social-container {
+.home-buttons {
   display: flex;
-  justify-content: space-between;
-  width: 10%;
-  padding-left: 4vmax;
+  justify-content: space-around;
+  margin-top: 2em;
 }
 
-.social-icon {
-  padding-right: 2em;
+.home-text {
+  height: 90%;
+  padding: 0 0 0 4vmax;
 }
+
+.home-title {
+  font-size: 2.5vmax;
+  color: var(--primary-color);
+  margin: 0;
+}
+
+.home-name {
+  font-size: 4vmax;
+  color: var(--white);
+  margin: 0;
+}
+
+.home-description {
+  font-size: 1vmax;
+  color: var(--white);
+  margin: 0;
+  width: 80;
+}
+
+
 
 /* ----------------- about ----------------------- */
 
@@ -125,7 +158,9 @@ html, body {
 
 .about-icon {
   display: flex;
+  margin: 0 auto;
   justify-content: center;
+  height: 15vmin;
 }
 
 .about-element {
@@ -215,7 +250,7 @@ html, body {
   display: flex;
   justify-content: space-around;
   width: 100%;
-  margin: 10em 0;
+  margin: 8vmax 0;
 }
 
 .contact-form {
@@ -229,8 +264,8 @@ html, body {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  padding-left: 3vmin;
-  width: 30vw;
+  /* padding-left: 3vmin; */
+  width: 35vw;
 }
 
 .contact-title {
@@ -241,7 +276,7 @@ html, body {
 
 .contact-description {
   margin-top: .5em;
-  width: 60%;
+  width: 100%;
   color: #AFAFAF;
 }
 
@@ -255,7 +290,7 @@ input::placeholder {
 .form-subject,
 .form-message {
   width: 30vw;
-  height: 5em;
+  height: 7vh;
   margin: 1rem;
   border: none;
   border-radius: .7em;
@@ -263,7 +298,7 @@ input::placeholder {
 }
 
 .form-message {
-  height: 10em;
+  height: 15vh;
 }
 
 .btn-form {
@@ -282,7 +317,7 @@ input::placeholder {
 }
 
 .btn {
-  margin: 0 0 1em 0;
+  margin: 1em 0 1em 0;
   padding: 0.4em 1em;
   background-color: var(--primary-color);
   color: var(--background-dark);
@@ -294,7 +329,7 @@ input::placeholder {
 }
 
 .btn-inverted {
-  margin: 0 0 1em 0;
+  margin: 1em 0 1em 0;
   padding: 0.4em 1em;
   border: 1px solid var(--primary-color);
   background-color: var(--background-dark);

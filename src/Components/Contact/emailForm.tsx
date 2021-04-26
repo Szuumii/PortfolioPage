@@ -7,12 +7,13 @@ export default function EmailForm() {
   const [message, setMessage] = React.useState("");
 
 
-  const handleSubmit = () => {
+  const handleSubmit = (e: Event) => {
+    e.preventDefault();
     console.log("Submit");
   }
 
   return(
-        <form className='contact-form' onSubmit={handleSubmit}>
+        <form className='contact-form' onSubmit={() => handleSubmit}>
           <input
             className='form-email'
             type='text'

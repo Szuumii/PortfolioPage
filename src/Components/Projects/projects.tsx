@@ -13,7 +13,7 @@ export default function Projects() {
           <ProjectContainer key={id} id={id} title={title} description={description} img={img} link={link}/>
         );
       })}
-      <p style={{fontWeight: 700}}>Check out the rest of my projects</p>
+      <p style={{fontWeight: 700, marginBottom: "0"}}>Check out the rest of my projects</p>
       <a href="https://www.github.com" style={{textDecoration:"none"}}><div className="btn" >Other Projects</div></a>
     </div>
   );
