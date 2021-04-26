@@ -1,4 +1,3 @@
-import { IconType } from "react-icons"
 import {AiOutlineInstagram, AiOutlineLinkedin, AiOutlineGithub} from "react-icons/ai/"
 
 export interface socialLink {
