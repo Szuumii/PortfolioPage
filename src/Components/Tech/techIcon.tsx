@@ -1,15 +1,16 @@
 import * as React from "react";
-import { useGlobalContext } from "../context";
-import { ITechnology } from "./data";
+import { useGlobalContext } from "../hooks/context";
 
 
-export default function TechIcon(props: {id: number, icon:any}) {
-  const {id, icon} = props;
+export default function TechIcon(props: {icon:any, title: string, description:any}) {
+  const {icon, title, description} = props;
 
-  const {select} = useGlobalContext();
+  const {selected, select} = useGlobalContext();
+
+
 
   return(
-    <button className="tech-icon" onClick={() => { select(id)}}>
+    <button className={selected.title === title ? "tech-icon-selected" : "tech-icon"} onClick={() => { select(title, description)}}>
       {icon}
     </button>
   );

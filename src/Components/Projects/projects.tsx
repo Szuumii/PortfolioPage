@@ -14,7 +14,7 @@ export default function Projects() {
         );
       })}
       <p style={{fontWeight: 700, marginBottom: "0"}}>Check out the rest of my projects</p>
-      <a href="https://www.github.com" style={{textDecoration:"none"}}><div className="btn" >Other Projects</div></a>
+      <a href="https://www.github.com" style={{textDecoration:"none"}}><div className="btn btn-project" >Other Projects</div></a>
     </div>
   );
 };

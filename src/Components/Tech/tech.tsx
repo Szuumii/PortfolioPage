@@ -7,7 +7,7 @@ export default function Tech() {
   return(
     <div className="tech">
       <SectionHeader sectionName="Tech Stack"/>
-      {/* <TechContainer/> */}
+      <TechContainer/>
     </div>
   );
 };

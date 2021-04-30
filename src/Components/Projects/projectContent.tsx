@@ -27,7 +27,7 @@ export default function ProjectContent(props: IProjectContent) {
     <div className="project-content" style={{alignItems: styleSheet[idx].alignItems}}>
       <p className="project-title" style={{padding: styleSheet[idx].padding}}>{title}</p>
       <p className="project-description" style={{padding: styleSheet[idx].padding}}>{description}</p>
-      <a href={link} style={{padding: styleSheet[idx].padding, textDecoration:"none"}}><div className="btn btn-project">Repository</div></a>
+      <a href={link} style={{padding: styleSheet[idx].padding, textDecoration:"none"}}><div className="btn btn-project-container">Repository</div></a>
     </div>
 
   );
