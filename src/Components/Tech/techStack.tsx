@@ -10,7 +10,7 @@ export default function TechStack() {
 
   if (width < 1000) {
     return(
-      <IconContext.Provider value={{size:"3.5vmax"}}>
+      <IconContext.Provider value={{size:"3vmax"}}>
         <div className="tech-stack-container"style={{width:"100%", justifyContent: "center", display:"flex"}}>
         <div className="tech-stack">
           {

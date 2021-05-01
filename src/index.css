@@ -225,7 +225,7 @@ html, body {
 
 .tech-title {
   margin: 0;
-  font-size: 3em;
+  font-size: 2.5em;
 }
 
 .tech-description {
@@ -259,7 +259,7 @@ html, body {
   outline: none;
   cursor: pointer;
   border-radius: 1.4em;
-  width: 7vw;
+  width: 9vmax;
 }
 
 .tech-icon-selected {
@@ -274,7 +274,7 @@ html, body {
   outline: none;
   cursor: pointer;
   border-radius: 1.4em;
-  width: 7vw;
+  width: 9vmax;
 }
 
 /* ---------------- projects ------------------- */
@@ -313,12 +313,13 @@ html, body {
 .project-title {
   margin: 0;
   font-weight: 700;
-  font-size: 1rem;
+  font-size: 1.3em;
 }
 
 .project-description {
-  font-size: .5rem;
-  margin: .3em 0 0 0;
+  font-size: .6rem;
+  width: 80%;
+  margin: .5em 0 0 0;
 }
 
 .btn-project {
@@ -329,6 +330,7 @@ html, body {
 }
 
 .btn-project-container {
+  font-size: .7em;
   margin: 1em 0 1em 0;
   padding: 0.4em 1em;
   width: 5em;
@@ -456,6 +458,10 @@ input::placeholder {
     font-size: 2.7em;
   }
 
+  .project-description {
+    font-size: .8em;
+  }
+
   .home-name {
     font-size: 3.5em;
   }
@@ -559,8 +565,16 @@ input::placeholder {
     margin: 2rem;
   }
 
+  .project-title {
+    font-size: 1em;
+  }
+
+  .project-description {
+    font-size: .5em;
+  }
+
   .btn-project-container {
-    font-size: .8rem;
+    font-size: .7em;
   }
 
   .about-icon {
