@@ -1,5 +1,5 @@
 import React from "react";
-import SectionHeader from "../General/SectionHeader";
+import {SectionHeader} from "../General/SectionHeader";
 import {AboutContainer} from "./AboutContainer";
 
 export const AboutSection = () => {

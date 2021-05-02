@@ -1,5 +1,5 @@
 import React from "react";
-import SectionHeader from "../General/SectionHeader"
+import {SectionHeader} from "../General/SectionHeader"
 import {TechContainer} from "./TechContainer";
 
 export const TechSection = () => {

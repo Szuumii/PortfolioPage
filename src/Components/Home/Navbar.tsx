@@ -12,7 +12,6 @@ export const Navbar = () => {
     <nav className="navbar">
       <Logo width="4em" height="4em"/>
       {width > 750 && <Navigation/>}
-      {width <= 750 && <Modal/>}
     </nav>
   );
 };

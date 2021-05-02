@@ -10,11 +10,11 @@ interface IStyle {
 const styleSheet: IStyle[] = [
   {
     alignItems: "flex-end",
-    padding: "0 1.5rem 0 0"
+    padding: "0 3rem 0 0"
   },
   {
     alignItems: "flex-start",
-    padding: "0 0 0 1.5rem"
+    padding: "0 0 0 3rem"
   }
 ]
 

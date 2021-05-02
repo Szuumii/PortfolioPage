@@ -3,6 +3,11 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+
+  &__span {
+    font-size: 1.2em;
+    font-weight: 600;
+  }
 }
 
 .project {
@@ -22,13 +27,15 @@
   }
 
   &__title {
+    font-size: 2em;
     margin: 0;
   }
   
 
   &__description {
     width: 80%;
-    margin: .5em 0 0 0;
+    font-size: 1.2em;
+    margin: .8em 0 0 0;
   }
 
   &__graphic {
@@ -40,7 +47,6 @@
   &__btn {
     @extend %btn;
     margin: 1em 0 1em 0;
-    padding: 0.4em 1em;
     text-align: center;
   }
 }
@@ -48,7 +54,14 @@
 
 .btn-project {
   @extend %btn;
-  margin: 1em 0 1em 0;
-  padding: 0.4em 1em;
+  margin: 2em;
   text-align: center;
+}
+
+
+
+@media (max-width: 750px) {
+  .project {
+    height: 50vw;
+  }
 }

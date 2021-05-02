@@ -1,9 +1,9 @@
 import React, { FC } from "react";
 
-export default function SectionHeader(props: {sectionName: string}) {
+export const SectionHeader:FC<{sectionName: string}> = ({sectionName}) => {
   return(
     <div className="section-header">
-      <h2 className="section-header__section-name">{props.sectionName}</h2>
+      <h2 className="section-header__section-name">{sectionName}</h2>
       <div className="underline"/>
     </div>
   );

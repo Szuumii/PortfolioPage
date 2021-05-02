@@ -5,11 +5,9 @@ import {HomeText} from "./HomeText";
 
 export const HomeContent = () => {
   return(
-    <div className="home-content">
+    <div className="home-container__content">
       <HomeText/>
-      <div className="social-wrapper">
-        <Social/>
-      </div>
+      <Social/>
     </div>
   );
 };

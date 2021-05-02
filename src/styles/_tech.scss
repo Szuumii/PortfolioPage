@@ -66,3 +66,17 @@
     font-size: 1.3em;
   }
 }
+
+
+@media (max-width: 750px) {
+
+  .tech-stack {
+    margin: 3em 1em;
+
+    &__column__icon,
+    &__column__icon--selected {
+      width: 20vw;
+    }
+  }
+  
+}

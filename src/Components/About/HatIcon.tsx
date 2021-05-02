@@ -5,7 +5,7 @@ export const HatIcon = () => {
   return (
     <div>
       <div className="about-icon"> 
-        <img src={hat} alt="graduation hat" width="100%" height="auto"/>
+        <img src={hat} alt="graduation hat" width="auto" height="100%"/>
       </div>
     </div>
   );

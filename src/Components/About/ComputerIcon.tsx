@@ -4,7 +4,7 @@ import computer from "../../static/images/computer.png"
 export const ComputerIcon = () => {
   return (
     <div className="about-icon">
-      <img src={computer} alt="monitor" width="100%" height="auto"/>
+      <img src={computer} alt="monitor" width="auto" height="100%"/>
     </div>
   );
 }

@@ -1,5 +1,5 @@
 import * as React from "react";
-import SectionHeader from "../General/SectionHeader"
+import {SectionHeader} from "../General/SectionHeader"
 import {ContactText} from "./ContactText";
 import {Footer} from "./Footer"
 import {ContactForm} from "./ContactForm";

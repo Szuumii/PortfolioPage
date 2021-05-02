@@ -2,6 +2,7 @@
 %btn {
   font-family: 'Poppins', sans-serif;
   font-size: 1.25em;
+  padding: 0.4em 1.5em;
   background-color: $primary-color;
   color: $background-dark;
   text-decoration: none;
@@ -54,4 +55,12 @@
   background-color: $primary-color;
   margin-left: auto;
   margin-right: auto;
+}
+
+@media (max-width: 750px) {
+  
+
+  .underline {
+    width: 10%;
+  }
 }
