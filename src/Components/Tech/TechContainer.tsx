@@ -1,9 +1,9 @@
 import React from "react";
 import { ITechnology, descriptions } from "./data";
-import TechText, { ITechText } from "./TechText";
+import {TechText, ITechText } from "./TechText";
 import TechStack from "./TechStack";
 
-export default function TechContainer() {
+export const TechContainer = () => {
 
   const [selected, setSelected] = React.useState({ title: "React", description: descriptions.react});
 

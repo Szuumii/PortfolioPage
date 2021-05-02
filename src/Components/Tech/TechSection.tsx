@@ -1,8 +1,8 @@
 import React from "react";
 import SectionHeader from "../General/SectionHeader"
-import TechContainer from "./TechContainer";
+import {TechContainer} from "./TechContainer";
 
-export default function TechSection() {
+export const TechSection = () => {
 
   return(
     <div className="tech-section">

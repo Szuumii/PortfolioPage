@@ -2,7 +2,7 @@ import React from "react";
 import useWindowSize from "../hooks/WindowSize";
 import { IconContext } from "react-icons"
 import { ITechnology, techDiamond, techGrid} from "./data";
-import TechIcon from "./TechIcon";
+import {TechIcon} from "./TechIcon";
 import { ITechText } from "./TechText";
 
 export default function TechStack(props: {selected: ITechText, select: (chosen: ITechText) => void}) {

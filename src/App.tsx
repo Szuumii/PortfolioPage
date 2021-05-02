@@ -1,9 +1,9 @@
 import React from 'react';
-import AboutSection from './Components/About/AboutSection';
-import ContactSection from './Components/Contact/ContactSection';
-import HomeSection from './Components/Home/HomeSection';
-import ProjectsSection from './Components/Projects/ProjectsSection';
-import TechSection from './Components/Tech/TechSection';
+import {AboutSection} from './Components/About/AboutSection';
+import {ContactSection} from './Components/Contact/ContactSection';
+import { HomeSection } from './Components/Home/HomeSection';
+import {ProjectsSection} from './Components/Projects/ProjectsSection';
+import {TechSection} from './Components/Tech/TechSection';
 
 function App() {
   return (

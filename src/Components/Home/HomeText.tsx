@@ -1,7 +1,7 @@
 import React from "react"
-import HomeButtons from "./HomeButtons";
+import {HomeButtons} from "./HomeButtons";
 
-export default function HomeText() {
+export const HomeText = () => {
   return(
     <div className="home-text">
         <h4 className="home-text__title">Hello, I'm</h4>

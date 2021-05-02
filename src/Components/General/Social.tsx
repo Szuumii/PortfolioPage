@@ -2,7 +2,7 @@ import React from "react";
 import { IconContext } from "react-icons";
 import { social, socialLink } from "./data";
 
-export default function Social() {
+export const Social = () => {
   return(
     <IconContext.Provider value={{ color: "#ECECEE", size: "2em"}} >
           <ul className="social">

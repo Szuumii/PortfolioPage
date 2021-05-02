@@ -1,11 +1,11 @@
-import * as React from "react";
-import ContactInput from "./ContactInput";
+import React, {useState} from "react";
+import {ContactInput} from "./ContactInput";
 
-export default function ContactForm() {
+export const ContactForm = () => {
 
-  const [email, setEmail] = React.useState("");
-  const [subject, setSubject] = React.useState("");
-  const [message, setMessage] = React.useState("");
+  const [email, setEmail] = useState("");
+  const [subject, setSubject] = useState("");
+  const [message, setMessage] = useState("");
 
 
   const handleSubmit = (e: Event) => {

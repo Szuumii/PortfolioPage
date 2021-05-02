@@ -1,8 +1,8 @@
-import * as React from "react";
-import AboutElement from "./AboutElement";
+import React, {FC} from "react";
+import {AboutElement} from "./AboutElement";
 import {aboutTable, IAboutInfo} from "./data";
 
-export default function AboutContainer() {
+export const AboutContainer:FC = () => {
   return(
     <div className="about-container">
       {aboutTable.map((element: IAboutInfo) => {

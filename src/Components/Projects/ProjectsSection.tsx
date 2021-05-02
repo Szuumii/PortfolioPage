@@ -1,9 +1,9 @@
 import React from "react";
-import Project from "./Project"
+import {Project} from "./Project"
 import SectionHeader from "../General/SectionHeader"
 import { IProject, projectInfo} from "./data";
 
-export default function ProjectsSection() {
+export const ProjectsSection = () => {
   return(
     <div className="projects-section">
       <SectionHeader sectionName="My Projects"/>

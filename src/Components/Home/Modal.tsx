@@ -2,7 +2,7 @@ import React from "react"
 import {FaBars} from "react-icons/fa"
 
 
-export default function Modal() {
+export const Modal = () => {
 
   return(
     <button className="modal">

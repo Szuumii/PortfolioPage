@@ -1,10 +1,10 @@
 import * as React from "react";
 import SectionHeader from "../General/SectionHeader"
-import ContactText from "./ContactText";
-import Footer from "./Footer"
-import ContactForm from "./ContactForm";
+import {ContactText} from "./ContactText";
+import {Footer} from "./Footer"
+import {ContactForm} from "./ContactForm";
 
-export default function ContactSection() {
+export const ContactSection = () => {
   return(
     <div className="contact-section">
       <SectionHeader sectionName="Contact Me"/>

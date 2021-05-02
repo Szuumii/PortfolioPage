@@ -1,7 +1,7 @@
 import React from 'react';
 import hat from "../../static/images/hat.png"
 
-export default function HatIcon() {
+export const HatIcon = () => {
   return (
     <div>
       <div className="about-icon"> 

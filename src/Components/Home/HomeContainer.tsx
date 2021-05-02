@@ -1,10 +1,10 @@
 import React from "react";
 import useWindowSize from "../hooks/WindowSize";
-import HomeContent from "./HomeContent";
-import Navigation from "./Navigation";
-import ProfilePicture from "./ProfilePicture";
+import {HomeContent} from "./HomeContent";
+import {Navigation} from "./Navigation";
+import {ProfilePicture} from "./ProfilePicture";
 
-export default function HomeContainer() {
+export const HomeContainer = () => {
 
   const [height, width] = useWindowSize();
 

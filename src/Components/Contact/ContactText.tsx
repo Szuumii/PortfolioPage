@@ -1,8 +1,8 @@
 import * as React from "react";
-import Social from "../General/Social";
+import {Social} from "../General/Social";
 import useWindowSize from "../hooks/WindowSize";
 
-export default function ContactText() {
+export const ContactText = () => {
   const [height, width] = useWindowSize();
 
   return(

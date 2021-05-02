@@ -1,10 +1,10 @@
 import React from "react";
 import Logo from "../General/Logo";
 import useWindowSize from "../hooks/WindowSize";
-import Modal from "./Modal";
-import Navigation from "./Navigation";
+import {Modal} from "./Modal";
+import {Navigation} from "./Navigation";
 
-export default function Navbar() {
+export const Navbar = () => {
 
   const[height, width] = useWindowSize();
 

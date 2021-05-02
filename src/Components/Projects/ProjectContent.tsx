@@ -1,4 +1,4 @@
-import React from "react";
+import React, {FC} from "react";
 import { IProject } from "./data";
 
 
@@ -18,8 +18,7 @@ const styleSheet: IStyle[] = [
   }
 ]
 
-export default function ProjectContent(props: IProject) {
-  const {id, title, description, link} = props;
+export const ProjectContent:FC<IProject> = ({id, title, description, link}) => {
 
   const idx = id % 2;
 

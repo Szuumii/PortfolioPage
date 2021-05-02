@@ -1,10 +1,6 @@
-import React from "react"
+import React, { FC } from "react"
 
-
-
-export default function ContactInput(props: {type: string, value:string, onChange: (value: React.SetStateAction<string>) => void}) {
-
-  const {type, value} = props;
+export const ContactInput:FC<{type: string, value:string, onChange: (value: React.SetStateAction<string>) => void}> = ({type, value, onChange}) => {
 
   return(
     <input
@@ -14,7 +10,7 @@ export default function ContactInput(props: {type: string, value:string, onChang
       name={type}
       value={value}
       placeholder={type}
-      onChange={(e) => props.onChange(e.target.value)}
+      onChange={(e) => onChange(e.target.value)}
     />
   );
 };

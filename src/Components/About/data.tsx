@@ -1,6 +1,6 @@
-import ComputerIcon from "./ComputerIcon"
-import HatIcon from "./HatIcon"
-import SnbIcon from "./SnbIcon"
+import {ComputerIcon} from "./ComputerIcon"
+import {HatIcon} from "./HatIcon"
+import {SnbIcon} from "./SnbIcon"
 
 export interface IAboutInfo {
   id: number,

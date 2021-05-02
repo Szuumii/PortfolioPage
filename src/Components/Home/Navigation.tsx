@@ -2,7 +2,7 @@ import React from "react";
 import { links, link } from "./links";
 import { Link } from 'react-scroll'
 
-export default function Navigation() {
+export const Navigation = () => {
 
   return(
     <ul className="navigation">

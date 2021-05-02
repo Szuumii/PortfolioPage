@@ -1,8 +1,7 @@
-import React from "react";
+import React, {FC} from "react";
 import { IAboutInfo } from "./data";
 
-export default function AboutElement(props: IAboutInfo) {
-  const {id, icon, description} = props;
+export const AboutElement: FC<IAboutInfo> = ({id, icon, description}) => {
   return(
       <div key={id} className="about-element">
         <span className="about-element__icon">{icon}</span>

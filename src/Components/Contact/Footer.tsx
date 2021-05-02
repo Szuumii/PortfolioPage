@@ -1,6 +1,6 @@
 import React from "react";
 
-export default function Footer() {
+export const Footer = () => {
   return(
     <div className="footer">
       <div style={{width: "95vw"}} className="underline"/>

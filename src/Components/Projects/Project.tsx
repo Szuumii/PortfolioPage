@@ -1,12 +1,10 @@
-import React from "react";
+import React, {FC} from "react";
 import { IProject } from "./data";
-import ProjectContent from "./ProjectContent";
+import {ProjectContent} from "./ProjectContent";
 
-export default function Project(props: IProject) {
+export const Project:FC<IProject> = ({ id, title,  img,  description,  link}) => {
 
-  const {id, title, img, description, link} = props;
-
-  if (props.id % 2 !== 0) {
+  if (id % 2 !== 0) {
     return(
       <div className="project">
         <ProjectContent id={id} title={title} description={description} img={img} link={link}/>
