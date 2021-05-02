@@ -1,0 +1,98 @@
+@import "./general";
+
+
+.home-section {
+  background-color: $background-dark;
+  width: 100%;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+}
+
+.navigation {
+  display: flex;
+  width: 50%;
+  justify-content: space-between;
+  align-items: center;
+  margin-right: 4vw;
+  list-style-type: none;
+  
+  &__link {
+    font-size: 1.2em;
+    cursor: pointer;
+
+    &:hover {
+      color: $primary-color;
+    }
+  }
+}
+
+
+.modal {
+  background-color: $background-dark;
+  color: $primary-color;
+  text-decoration: none;
+  border:none;
+  outline: none;
+  cursor: pointer;
+  padding: 1em;
+}
+
+.home-container {
+  display: flex;
+  margin-top: 2em;
+}
+
+.home-content {
+  display: flex;
+  flex-direction: column;
+  padding: 0 0 0 5em;
+}
+
+.home-text {
+  flex: 1;
+  color: $white;
+
+  padding-top: 10em;
+
+  width: 50%;
+
+  &__title {
+    color: $primary-color;
+    margin: 0;
+  }
+
+  &__name {
+    margin: 0;
+  }
+
+  &__description {
+    margin: 0;
+  }
+
+  &__buttons {
+    display: flex;
+    justify-content: space-around;
+  }
+}
+
+.profile-picture {
+  display: flex;
+  width: 35em;
+  justify-content: center;
+  margin: 0 auto;
+}
+
+.btn-home {
+  @extend %btn;
+  margin: 1em 0 1em 0;
+  padding: 0.4em 1em;
+}
+
+.btn-home--inverted {
+  @extend %btn-inverted;
+  margin: 1em 0 1em 0;
+  padding: 0.4em 1em;
+}

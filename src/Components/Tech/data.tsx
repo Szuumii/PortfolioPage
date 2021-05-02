@@ -13,7 +13,7 @@ export interface ITechnology {
 }
 
 
-const descriptions = {
+export const descriptions = {
   css: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
   html: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.", 
   opengl: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",

@@ -1,5 +1,5 @@
 
-export interface IProjectContent {
+export interface IProject {
   id: number,
   title: string,
   img: string,
@@ -7,7 +7,7 @@ export interface IProjectContent {
   link: string
 }
 
-export const projectInfo: IProjectContent[] = [
+export const projectInfo: IProject[] = [
   {
     id: 1,
     title: "Project Title",

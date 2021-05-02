@@ -4,7 +4,7 @@ import snb from "../../static/images/snb.png"
 export default function SnbIcon() {
   return (
     <div className="about-icon">
-      <img src={snb} alt="monitor" width="auto" height="100%"/>
+      <img src={snb} alt="monitor" width="100%" height="auto"/>
     </div>
   );
 }

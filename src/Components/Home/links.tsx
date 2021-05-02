@@ -10,35 +10,35 @@ export const links: link[] = [
   {
     id: 1,
     name: "Home",
-    to: "home",
+    to: "home-section",
     spy: true,
     smooth: true
   },
   {
     id: 2,
     name: "About Me",
-    to: "about",
+    to: "about-section",
     spy: true,
     smooth: true
   },
   {
     id: 3,
     name: "Tech Stack",
-    to: "tech",
+    to: "tech-section",
     spy: true,
     smooth: true
   },
   {
     id: 4,
     name: "Projects",
-    to: "projects",
+    to: "projects-section",
     spy: true,
     smooth: true
   },
   {
     id: 5,
     name: "Contact",
-    to: "contact",
+    to: "contact-section",
     spy: true,
     smooth: true
   },

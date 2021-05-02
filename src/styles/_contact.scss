@@ -1,0 +1,80 @@
+%input-base {
+  width: 30vw;
+  margin: 1.5em;
+  border: none;
+  border-radius: .7em;
+  background-color: $form-bg;
+  color: $white;
+
+  &::placeholder {
+    color: $white;
+    font-size: 1.25em;
+    padding-left: 1.5em;
+  }
+}
+
+
+.contact-section {
+  background-color: $background-dark;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.contact {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  margin: 8vmax 0;
+
+  &__text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* padding-left: 3vmin; */
+    width: 35vw;
+
+    &__title {
+      font-weight: 600;
+      font-size: 2.5em;
+      margin: 0;
+      padding-bottom: 1em;
+    }
+  }
+
+  &__form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    &__email {
+      @extend %input-base;
+      height: 5em;
+    }
+
+    &__subject {
+      @extend %input-base;
+      height: 5em;
+    }
+
+    &__message {
+      @extend %input-base;
+      height: 10em;
+    }
+
+    &__btn {
+      @extend %btn;
+      margin: 1em 0 1em 0;
+      padding: 0.4em 1em;
+      text-align: center;
+    }
+  }
+
+}
+
+.footer {
+  text-align: center;
+  margin: 1.25em 0;
+}
+

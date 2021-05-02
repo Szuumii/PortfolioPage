@@ -1,14 +1,14 @@
-import ComputerIcon from "./computerIcon"
-import HatIcon from "./hatIcon"
+import ComputerIcon from "./ComputerIcon"
+import HatIcon from "./HatIcon"
 import SnbIcon from "./SnbIcon"
 
-export interface aboutInfo {
+export interface IAboutInfo {
   id: number,
   icon: any, 
   description: string
 }
 
-export const aboutTable: aboutInfo[] = [
+export const aboutTable: IAboutInfo[] = [
   {
     id: 1,
     icon: <ComputerIcon/>,

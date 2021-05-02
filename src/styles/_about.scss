@@ -1,0 +1,27 @@
+.about-section {
+  background-color: $background-light;
+}
+
+.about-container {
+  display: flex;
+  justify-content: space-around;
+  padding: 7em 0 5em 0;
+}
+
+.about-element {
+  text-align: justify;
+  width: 30%;
+
+  &__icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 15vw;
+  }
+
+  &__description {
+    margin: 0;
+    padding: 1em;
+  }
+}
+
