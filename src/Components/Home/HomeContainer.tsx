@@ -1,4 +1,5 @@
 import React from "react";
+import { mobileBreakpoint } from "../General/data";
 import useWindowSize from "../hooks/WindowSize";
 import {HomeContent} from "./HomeContent";
 import {Navigation} from "./Navigation";
@@ -12,7 +13,7 @@ export const HomeContainer = () => {
     <div className="home-container">
       {/* {showNavigation && <Navigation/>} */}
       <HomeContent/>
-      { width >= 750 && <ProfilePicture/>}
+      { width >= mobileBreakpoint && <ProfilePicture/>}
     </div>
   );
 };

@@ -9,7 +9,7 @@ export default function TechStack(props: {selected: ITechText, select: (chosen: 
 
   const [height, width] = useWindowSize();
 
-  if (width < 750) {
+  if (width < 850) {
     return(
       <IconContext.Provider value={{size:"3vmax"}}>
         <div className="tech-stack">

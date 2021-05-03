@@ -1,9 +1,7 @@
 import * as React from "react";
 import {Social} from "../General/Social";
-import useWindowSize from "../hooks/WindowSize";
 
 export const ContactText = () => {
-  const [height, width] = useWindowSize();
 
   return(
     <div className="contact__text">

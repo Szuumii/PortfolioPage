@@ -1,4 +1,5 @@
 import React from "react";
+import { mobileBreakpoint } from "../General/data";
 import Logo from "../General/Logo";
 import useWindowSize from "../hooks/WindowSize";
 import {Modal} from "./Modal";
@@ -11,7 +12,7 @@ export const Navbar = () => {
   return(
     <nav className="navbar">
       <Logo width="4em" height="4em"/>
-      {width > 750 && <Navigation/>}
+      {width > mobileBreakpoint && <Navigation/>}
     </nav>
   );
 };

@@ -43,6 +43,7 @@
     ]
   },
   "devDependencies": {
-    "@types/react-scroll": "^1.8.2"
+    "@types/react-scroll": "^1.8.2",
+    "file-loader": "^6.2.0"
   }
 }

@@ -16,8 +16,8 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 40%;
-    padding: 2em;
+    height: 10vw;
+    padding: 1em;
   }
 
   &__description {
@@ -26,7 +26,7 @@
   }
 }
 
-@media (max-width: 750px) {
+@media (max-width: $mobile-breakpoint) {
   .about-container {
     flex-direction: column;
     align-items: center;

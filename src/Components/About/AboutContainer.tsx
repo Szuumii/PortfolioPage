@@ -6,9 +6,9 @@ export const AboutContainer = () => {
   return(
     <div className="about-container">
       {aboutTable.map((element: IAboutInfo) => {
-        const {id, icon, description} = element;
+        const {id, img, description} = element;
         return(
-          <AboutElement key={id} id={id} icon={icon} description={description}/>
+          <AboutElement key={id} id={id} img={img} description={description}/>
         );
       })}
     </div>

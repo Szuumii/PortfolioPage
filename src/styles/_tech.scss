@@ -68,7 +68,7 @@
 }
 
 
-@media (max-width: 750px) {
+@media (max-width: $mobile-breakpoint) {
 
   .tech-stack {
     margin: 3em 1em;
