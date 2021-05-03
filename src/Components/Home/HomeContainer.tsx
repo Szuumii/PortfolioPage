@@ -1,17 +1,22 @@
-import React from "react";
+import React, {FC} from "react";
 import { mobileBreakpoint } from "../General/data";
 import useWindowSize from "../hooks/WindowSize";
 import {HomeContent} from "./HomeContent";
 import {Navigation} from "./Navigation";
 import {ProfilePicture} from "./ProfilePicture";
 
-export const HomeContainer = () => {
+interface Props {
+  showNavigation: boolean,
+  toggleOff: () => void
+}
+
+export const HomeContainer:FC<Props> = ({showNavigation, toggleOff}) => {
 
   const [height, width] = useWindowSize();
 
   return(
     <div className="home-container">
-      {/* {showNavigation && <Navigation/>} */}
+      {showNavigation && <Navigation/>}
       <HomeContent/>
       { width >= mobileBreakpoint && <ProfilePicture/>}
     </div>

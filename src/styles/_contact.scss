@@ -1,6 +1,7 @@
 %input-base {
   width: 30vw;
   margin: 1.5em;
+  padding: 1em;
   border: none;
   border-radius: .7em;
   background-color: $form-bg;
@@ -9,7 +10,6 @@
   &::placeholder {
     color: $white;
     font-size: 1.25em;
-    padding-left: 1.5em;
   }
 }
 
@@ -25,7 +25,7 @@
   display: flex;
   justify-content: space-around;
   width: 100%;
-  margin: 8vmax 0;
+  margin: 5vmax 0;
 
   &__text {
     display: flex;
@@ -49,17 +49,17 @@
 
     &__email {
       @extend %input-base;
-      height: 5em;
+      height: 3em;
     }
 
     &__subject {
       @extend %input-base;
-      height: 5em;
+      height: 4em;
     }
 
     &__message {
       @extend %input-base;
-      height: 10em;
+      height: 8em;
     }
 
     &__btn {
@@ -91,7 +91,7 @@
     }
 
     &__form {
-      width: 90%;
+      width: 80%;
 
       &__email,
       &__subject,

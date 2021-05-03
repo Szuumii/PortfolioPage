@@ -1,3 +1,16 @@
+%title-base {
+  width: 70%;
+  font-size: 2em;
+  margin: 0;
+}
+
+%description-base {
+  width: 70%;
+  font-size: 1.2em;
+  margin: .8em 0 0 0;
+}
+
+
 .projects-section {
   background-color: $background-light;
   display: flex;
@@ -19,37 +32,55 @@
   min-width: 60%;
   height: 30vw;
 
+
   &__content {
-    width: 50%;
     display: flex;
     flex-direction: column;
     justify-content: center;
-  }
+    width: 50%;
 
-  &__title {
-    width: 70%;
-    font-size: 2em;
-    margin: 0;
-  }
+
+    &__title {
+      @extend %title-base;
+      padding-left: 2rem;
+    }
+    
   
+    &__description {
+      @extend %description-base;
+      padding-left: 2rem;
+    }
+  
+    &__btn {
+      @extend %btn;
+      margin: 1em 0 1em 2rem;
+    }
 
-  &__description {
-    width: 70%;
-    font-size: 1.2em;
-    margin: .8em 0 0 0;
+    &--inverted {
+      
+      &__title {
+        @extend %title-base;
+      }
+      
+    
+      &__description {
+        @extend %description-base;
+      }
+    
+      &__btn {
+        @extend %btn;
+        margin: 1em 0 1em 2rem;
+      }
+    }
   }
 
   &__graphic {
     width: 50%;
     height: 100%;
+    border-radius: 1.25em 0 1.25em 0;
     background-color: gray;
   }
 
-  &__btn {
-    @extend %btn;
-    margin: 1em 0 1em 0;
-    text-align: center;
-  }
 }
 
 
@@ -61,8 +92,22 @@
 
 
 
-@media (max-width: 750px) {
+@media (max-width: $mobile-breakpoint) {
   .project {
     height: 50vw;
+
+    &__content {
+      &__title {
+        font-size: 1.3em;
+      }
+    
+      &__description {
+        width: 80%;
+      }
+    
+      &__btn {
+        font-size: 1.2em;
+      }
+    }
   }
 }

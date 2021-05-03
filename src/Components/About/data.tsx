@@ -1,3 +1,7 @@
+import computer from "../../static/images/computer.png";
+import hat from "../../static/images/hat.png";
+import snowboard from "../../static/images/snb.png";
+
 export interface IAboutIcon {
   src: string,
   alt: string,
@@ -14,7 +18,7 @@ export const aboutTable: IAboutInfo[] = [
   {
     id: 1,
     img: {
-      src: "../../static/images/computer.png",
+      src: computer,
       alt: "Computer Icon",
       height: "100%"
     },
@@ -23,7 +27,7 @@ export const aboutTable: IAboutInfo[] = [
   {
     id: 2,
     img: {
-      src: "../../static/images/hat.png",
+      src: hat,
       alt: "Hat Icon",
       height: "70%"
     },
@@ -32,7 +36,7 @@ export const aboutTable: IAboutInfo[] = [
   {
     id: 3,
     img: {
-      src: "../../static/images/snb.png",
+      src: snowboard,
       alt: "Snowboard Icon",
       height: "100%"
     },

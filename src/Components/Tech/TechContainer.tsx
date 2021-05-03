@@ -1,7 +1,7 @@
 import React from "react";
 import { ITechnology, descriptions } from "./data";
 import {TechText, ITechText } from "./TechText";
-import TechStack from "./TechStack";
+import {TechStack} from "./TechStack";
 
 export const TechContainer = () => {
 

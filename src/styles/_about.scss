@@ -5,7 +5,7 @@
 .about-container {
   display: flex;
   justify-content: space-around;
-  padding: 7em 0 5em 0;
+  padding: 5em 0 5em 0;
 }
 
 .about-element {
@@ -16,12 +16,13 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 10vw;
-    padding: 1em;
+    height: 8vw;
+    padding: 2em;
   }
 
   &__description {
     margin: 0;
+    font-size: 1.2em;
     padding: 1em;
   }
 }
@@ -30,10 +31,15 @@
   .about-container {
     flex-direction: column;
     align-items: center;
+
   }
 
 
   .about-element {
     width: 90%;
+
+    &__icon {
+      height: 30vw;
+    }
   }
 }

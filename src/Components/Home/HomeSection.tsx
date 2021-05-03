@@ -1,12 +1,23 @@
-import React from "react";
+import React, { useState } from "react";
 import {HomeContainer} from "./HomeContainer";
 import {Navbar} from "./Navbar";
 
 export const HomeSection = () => {
+
+  const [showNavigation, setShowNavigation] = useState(false);
+
+  const toggle = () => {
+    setShowNavigation(!showNavigation);
+  }
+
+  const toggleOff = () => {
+    setShowNavigation(false);
+  }
+
   return(
     <div className="home-section">
-      <Navbar/>
-      <HomeContainer/>
+      <Navbar toggle={toggle}/>
+      <HomeContainer showNavigation={showNavigation} toggleOff={toggleOff}/>
     </div>
   );
 };

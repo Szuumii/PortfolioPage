@@ -1,18 +1,23 @@
-import React from "react";
+import React, { FC } from "react";
 import { mobileBreakpoint } from "../General/data";
-import Logo from "../General/Logo";
+import {Logo} from "../General/Logo";
 import useWindowSize from "../hooks/WindowSize";
 import {Modal} from "./Modal";
 import {Navigation} from "./Navigation";
 
-export const Navbar = () => {
+interface Props {
+  toggle: () => void
+}
+
+export const Navbar:FC<Props> = ({toggle}) => {
 
   const[height, width] = useWindowSize();
 
   return(
     <nav className="navbar">
-      <Logo width="4em" height="4em"/>
-      {width > mobileBreakpoint && <Navigation/>}
+      <Logo/>
+      {width > mobileBreakpoint ? <Navigation/> : <Modal toggle={toggle}/>}
+
     </nav>
   );
 };
