@@ -1,3 +1,5 @@
+$project-padding: 1.5rem;
+
 %title-base {
   width: 70%;
   font-size: 2em;
@@ -39,40 +41,50 @@
     justify-content: center;
     width: 50%;
 
+    &--inverted {
+      width: 50%;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: flex-end;
+      text-align: right;
+  
+        &__title {
+          @extend %title-base;
+          padding-right: $project-padding;
+        }
+        
+      
+        &__description {
+          @extend %description-base;
+          padding-right: $project-padding;
+        }
+      
+        &__btn {
+          @extend %btn;
+          margin: 1em $project-padding 1em 0;
+        }
+    }
+
 
     &__title {
       @extend %title-base;
-      padding-left: 2rem;
+      padding-left: $project-padding;
     }
     
   
     &__description {
       @extend %description-base;
-      padding-left: 2rem;
+      padding-left: $project-padding;
     }
   
     &__btn {
       @extend %btn;
-      margin: 1em 0 1em 2rem;
+      margin: 1em 0 1em $project-padding;
     }
 
-    &--inverted {
-      
-      &__title {
-        @extend %title-base;
-      }
-      
-    
-      &__description {
-        @extend %description-base;
-      }
-    
-      &__btn {
-        @extend %btn;
-        margin: 1em 0 1em 2rem;
-      }
-    }
   }
+
 
   &__graphic {
     width: 50%;
@@ -97,16 +109,32 @@
     height: 50vw;
 
     &__content {
+
+      &--inverted {
+        &__title {
+          font-size: 1.2em;
+        }
+      
+        &__description {
+          font-size: 1em;
+          width: 80%;
+        }
+      
+        &__btn {
+          font-size: 1.1em;
+        }
+      }
       &__title {
-        font-size: 1.3em;
+        font-size: 1.2em;
       }
     
       &__description {
+        font-size: 1em;
         width: 80%;
       }
     
       &__btn {
-        font-size: 1.2em;
+        font-size: 1.1em;
       }
     }
   }

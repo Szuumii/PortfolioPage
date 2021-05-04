@@ -17,7 +17,6 @@ export const Navbar:FC<Props> = ({toggle}) => {
     <nav className="navbar">
       <Logo/>
       {width > mobileBreakpoint ? <Navigation/> : <Modal toggle={toggle}/>}
-
     </nav>
   );
 };

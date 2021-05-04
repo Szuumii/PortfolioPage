@@ -18,7 +18,7 @@ export const TechStack: FC<Props> = ({selected, select}) => {
   // console.log(width);
 
   const iconValue = {
-    size: (width >= mobileBreakpoint + 5 ? "4vmin" : "6vmin")
+    size: (width >= mobileBreakpoint + 5 ? "4vmin" : "8vmin")
   }  
   return(
     <IconContext.Provider value={iconValue}>

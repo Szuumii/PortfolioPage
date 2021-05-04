@@ -4,9 +4,7 @@ import { IProject } from "./data";
 
 export const ProjectContent:FC<IProject> = ({id, title, description, link}) => {
 
-  // const projectStyle = id % 2 !== 0 ? "project__content" : "project__content--inverted"
-
-  const projectStyle = "project__content";
+  const projectStyle = id % 2 !== 0 ? "project__content" : "project__content--inverted"
 
   return(
     <div className={projectStyle}>
