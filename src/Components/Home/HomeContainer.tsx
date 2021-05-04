@@ -16,7 +16,7 @@ export const HomeContainer:FC<Props> = ({showNavigation, toggleOff}) => {
 
   return(
     <div className="home-container">
-      {showNavigation && <Navigation/>}
+      {showNavigation && <Navigation toggleOff={toggleOff}/>}
       <HomeContent toggleOff={toggleOff}/>
       { width >= mobileBreakpoint && <ProfilePicture/>}
     </div>

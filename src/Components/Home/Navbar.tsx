@@ -6,17 +6,18 @@ import {Modal} from "./Modal";
 import {Navigation} from "./Navigation";
 
 interface Props {
-  toggle: () => void
+  toggle: () => void,
+  toggleOff: () => void
 }
 
-export const Navbar:FC<Props> = ({toggle}) => {
+export const Navbar:FC<Props> = ({toggle, toggleOff}) => {
 
   const[height, width] = useWindowSize();
 
   return(
     <nav className="navbar">
       <Logo/>
-      {width > mobileBreakpoint ? <Navigation/> : <Modal toggle={toggle}/>}
+      {width > mobileBreakpoint ? <Navigation toggleOff={toggleOff}/> : <Modal toggle={toggle}/>}
     </nav>
   );
 };

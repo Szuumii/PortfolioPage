@@ -16,7 +16,7 @@ export const HomeSection = () => {
 
   return(
     <div className="home-section">
-      <Navbar toggle={toggle}/>
+      <Navbar toggle={toggle} toggleOff={toggleOff}/>
       <HomeContainer showNavigation={showNavigation} toggleOff={toggleOff}/>
     </div>
   );
