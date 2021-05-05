@@ -67,8 +67,10 @@
   }
 }
 
+//  ======================== Tablet breakpoint ========================
 
-@media (max-width: $mobile-breakpoint) {
+
+@media (max-width: $tablet-breakpoint) {
 
   .tech-stack {
     margin: 3.5em 1em;

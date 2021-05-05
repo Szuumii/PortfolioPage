@@ -102,6 +102,53 @@ $project-padding: 1.5rem;
   text-align: center;
 }
 
+//  =============================== Tablet breakpoint =====================
+
+
+@media (max-width: $tablet-breakpoint) {
+  .project {
+    width: 85%;
+    height: 45vw;
+
+    &__content {
+
+      &--inverted {
+
+        &__title {
+          font-size: 1.8em;
+        }
+
+        &__description {
+          width: 80%;
+          font-size: 1.2em;
+        }
+      
+        &__btn {
+          font-size: 1.3em;
+        }
+      }
+      &__title {
+        font-size: 1.8em;
+      }
+    
+      &__description {
+        font-size: 1.2em;
+        width: 80%;
+      }
+    
+      &__btn {
+        font-size: 1.3em;
+      }
+    }
+  }
+
+  .btn-project {
+    font-size: 1.6em;
+  }
+}
+
+
+// ============================ Mobile Breakpoint ======================
 
 
 @media (max-width: $mobile-breakpoint) {

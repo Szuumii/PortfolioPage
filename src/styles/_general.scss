@@ -57,8 +57,11 @@
   margin-right: auto;
 }
 
-@media (max-width: $mobile-breakpoint) {
+@media (max-width: $tablet-breakpoint) {
   
+  .social {
+    width: 15em;
+  }
 
   .underline {
     width: 10%;

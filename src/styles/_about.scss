@@ -27,16 +27,35 @@
   }
 }
 
-@media (max-width: $mobile-breakpoint) {
+//  ======================== Tablet breakpoint =======================
+
+@media (max-width: $tablet-breakpoint) {
   .about-container {
     flex-direction: column;
     align-items: center;
 
   }
 
-
   .about-element {
     width: 90%;
+
+    &__description {
+      font-size: 1.6em;
+    }
+
+
+    &__icon {
+      height: 27vmin;
+    }
+  }
+}
+
+
+// ========================= Mobile Breakpoint =======================
+
+@media (max-width: $mobile-breakpoint) {
+  
+  .about-element {
 
     &__icon {
       height: 30vmin;

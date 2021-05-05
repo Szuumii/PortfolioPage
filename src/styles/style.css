@@ -58,6 +58,9 @@
 }
 
 @media (max-width: 800px) {
+  .social {
+    width: 15em;
+  }
   .underline {
     width: 10%;
   }
@@ -123,6 +126,9 @@
 }
 
 @media (max-width: 800px) {
+  .social {
+    width: 15em;
+  }
   .underline {
     width: 10%;
   }
@@ -273,15 +279,11 @@
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
-    font-size: 1.8em;
+    font-size: 2.2em;
     margin: 0;
     padding: 0;
     width: 100%;
     background-color: #222A36;
-  }
-  .navigation {
-    -webkit-transition: 200ms ease;
-    transition: 200ms ease;
   }
   .home-container {
     -webkit-box-pack: center;
@@ -305,16 +307,41 @@
     text-align: center;
   }
   .home-text__title {
-    padding-top: 5em;
+    font-size: 4.5em;
+    padding-top: 4em;
+  }
+  .home-text__name {
+    font-size: 5em;
   }
   .home-text__description {
-    width: 90%;
+    width: 80%;
+    font-size: 1.7em;
     text-align: center;
     margin: 0 auto;
   }
   .home-text__buttons {
-    width: 90%;
+    width: 70%;
+    font-size: 1.4em;
     margin: 0 auto;
+  }
+}
+
+@media (max-width: 500px) {
+  .navigation {
+    font-size: 1.8em;
+  }
+  .home-text__title {
+    font-size: 3.5em;
+  }
+  .home-text__name {
+    font-size: 4em;
+  }
+  .home-text__description {
+    font-size: 1.4em;
+  }
+  .home-text__buttons {
+    font-size: 1.2em;
+    width: 80%;
   }
 }
 
@@ -369,6 +396,15 @@
   .about-element {
     width: 90%;
   }
+  .about-element__description {
+    font-size: 1.6em;
+  }
+  .about-element__icon {
+    height: 27vmin;
+  }
+}
+
+@media (max-width: 500px) {
   .about-element__icon {
     height: 30vmin;
   }
@@ -593,6 +629,36 @@
 
 @media (max-width: 800px) {
   .project {
+    width: 85%;
+    height: 45vw;
+  }
+  .project__content--inverted__title {
+    font-size: 1.8em;
+  }
+  .project__content--inverted__description {
+    width: 80%;
+    font-size: 1.2em;
+  }
+  .project__content--inverted__btn {
+    font-size: 1.3em;
+  }
+  .project__content__title {
+    font-size: 1.8em;
+  }
+  .project__content__description {
+    font-size: 1.2em;
+    width: 80%;
+  }
+  .project__content__btn {
+    font-size: 1.3em;
+  }
+  .btn-project {
+    font-size: 1.6em;
+  }
+}
+
+@media (max-width: 500px) {
+  .project {
     height: 50vw;
   }
   .project__content--inverted__title {
@@ -810,17 +876,23 @@ a {
 
 @media (max-width: 1200px) {
   body {
-    font-size: 11px;
+    font-size: 12px;
   }
 }
 
 @media (max-width: 1050px) {
   body {
-    font-size: 10px;
+    font-size: 11px;
   }
 }
 
 @media (max-width: 800px) {
+  body {
+    font-size: 10px;
+  }
+}
+
+@media (max-width: 500px) {
   body {
     font-size: 9px;
   }
