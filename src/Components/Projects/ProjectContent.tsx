@@ -1,8 +1,14 @@
 import React, {FC} from "react";
 import { IProject } from "./data";
 
+interface Props {
+  id: number, 
+  title: string, 
+  description: string, 
+  link: string
+}
 
-export const ProjectContent:FC<IProject> = ({id, title, description, link}) => {
+export const ProjectContent:FC<Props> = ({id, title, description, link}) => {
 
   const projectStyle = id % 2 !== 0 ? "project__content" : "project__content--inverted"
 

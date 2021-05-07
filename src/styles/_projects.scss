@@ -31,7 +31,7 @@ $project-padding: 1.5rem;
   margin: 2em;
   border-radius: 1.25em;
   box-shadow: 2px 2px 2px black;
-  min-width: 60%;
+  width: 70%;
   height: 30vw;
 
 
@@ -64,6 +64,7 @@ $project-padding: 1.5rem;
           @extend %btn;
           margin: 1em $project-padding 1em 0;
         }
+
     }
 
 
@@ -89,8 +90,16 @@ $project-padding: 1.5rem;
   &__graphic {
     width: 50%;
     height: 100%;
-    border-radius: 1.25em 0 1.25em 0;
-    background-color: gray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+
+    &__image {
+      width: auto;
+      height: 90%;
+      border-radius: 1.25em;
+    }
   }
 
 }
@@ -103,6 +112,13 @@ $project-padding: 1.5rem;
 }
 
 //  =============================== Tablet breakpoint =====================
+
+
+@media (max-width: 1250px) {
+  .project {
+    height: 40vw;
+  }
+}
 
 
 @media (max-width: $tablet-breakpoint) {
@@ -153,7 +169,6 @@ $project-padding: 1.5rem;
 
 @media (max-width: $mobile-breakpoint) {
   .project {
-    height: 50vw;
 
     &__content {
 
@@ -164,7 +179,6 @@ $project-padding: 1.5rem;
       
         &__description {
           font-size: 1em;
-          width: 80%;
         }
       
         &__btn {
@@ -177,7 +191,6 @@ $project-padding: 1.5rem;
     
       &__description {
         font-size: 1em;
-        width: 80%;
       }
     
       &__btn {

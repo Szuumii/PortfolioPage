@@ -16,21 +16,18 @@ export const ContactForm:FC<Props> = ({toggle, showPopup}) => {
   const handleSubmit = (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
 
-    // db.collection("contacts").add({
-    //   name,
-    //   email,
-    //   message
-    // })
-    // .then(() => {
-    //   alert("Your message has been submitted!");
-    // })
-    // .catch(error => {
-    //   alert(error.message);
-    // })
+    db.collection("contacts").add({
+      name,
+      email,
+      message
+    })
+    .then(() => {
+      toggle();
+    })
+    .catch(error => {
+      alert(error.message);
+    })
 
-    toggle();
-
-    console.log("ELooo");
   }
 
   return(

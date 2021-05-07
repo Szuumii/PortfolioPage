@@ -4,7 +4,7 @@ export const Footer = () => {
   return(
     <div className="footer">
       <div style={{width: "95vw"}} className="underline"/>
-      <p>© Jakub Szumski - copy right all rights reserved</p>
+      <p>© 2021 Jakub Szumski</p>
     </div>
   );
 };

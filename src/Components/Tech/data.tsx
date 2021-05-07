@@ -15,21 +15,21 @@ export interface ITechnology {
 
 export const descriptions = {
   css: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-  html: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.", 
-  opengl: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-  typescript: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+  html: "Basic building block for the entire web. Good knowledge of this language is the most crucial skill for every web developer to possess.", 
+  opengl: "During my internship I had a pleasure of creating a micro version of graphic engine with the usage of OpenGL. I've familiarized myself with most recent versions of this amazing API. I'm also familiar with ES version dedicated for embedded devices like consoles or phones.",
+  typescript: "Typescript is my latest discovery. Combined with the React library it provides me a way to create my frontend applications very easily.",
   fastapi: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-  cplusplus: "C++ is the first language that I've ever learned. It gave me opportunities to create amazing projects and grow as a coder. This experience eventually led me to land my first internship",
-  react: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-  git: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-  python: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-  assembly: "During my studies I've had some experience with both RISC and CISC architectures. I've learned how to code using MIPS, x86 and x64 assembly languages. This gives me possibilities to work with lower abstraction levels as well",
+  cplusplus: "C++ is the first language that I've ever learned. It gave me opportunities to create amazing projects and grow as a coder. This experience eventually led me to land my first internship. With C++ as a baseline I can work with any other strongly typed language without any problems.",
+  react: "React is my go to front end library. It provides me with tools to create virtually any design that I want.",
+  git: "Git is by far the most reliable and popular version control system there is. Knowledge of workflows for platforms like Github or Gerrit allows me to work in teams and collaborate with other programmes. It also provides me a way to share my code with the rest of the world.",
+  python: "Python is my favourite language to use for every task. It's flexibility and simplicy makes it extremely powerfull tool to have in my tech stack.",
+  assembly: "While studying I've had some experience with both RISC and CISC architectures. I've learned how to code using MIPS, x86 and x64 assembly languages. This experience allows me to work with lower abstraction levels where knowledge of assemby is neccessary to analyze the code.",
   javascript: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-  security: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-  microcontrollers: "When I've signed up for ",
+  security: "Cybersecurity is the area of computer science that I'm very passionate about. In my spare time I solve CTF challenges and crack different VM's in order to deepen my knowledge in this area.",
+  microcontrollers: "Although short, my experience with microcontrollers and embedded devices has taught me that if you have patience and devotion you can create anything you want. Thanks to the familiarity with STM32 platform I'm not scared of taking up any hardware challenge or project if necessary.",
   postgresql: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
   linux: "Linux is my go to operating system for development. Combined with i3 tiling window manager it increases my productivity and control over every aspect of my evniornment. It also gives me powerfull automation command language bash that helps me deal with dull and repetetive tasks.",
-  algo: "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+  algo: "As a Computer Science major I think that the knowledge of data structures, algorithms and design patterns is the most universal and essential skill to have. During many classes and courses I had the opportunity to analyze different structures and apply them to solve many different tasks and assignments."
 }
 
 const icons = {
