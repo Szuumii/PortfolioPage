@@ -52,7 +52,7 @@
       height: 3em;
     }
 
-    &__subject {
+    &__name {
       @extend %input-base;
       height: 4em;
     }
@@ -69,6 +69,18 @@
     }
   }
 
+  &__popup {
+    position: fixed;
+    border: 1px solid $primary-color;
+
+    right: 0;
+    bottom: 15vh;
+
+    &__inner {
+      background-color: $background-light;
+      padding: 2em;
+    }
+  }
 }
 
 .footer {
@@ -94,7 +106,7 @@
       width: 80%;
 
       &__email,
-      &__subject,
+      &__name,
       &__message {
         width: 100%;
       }

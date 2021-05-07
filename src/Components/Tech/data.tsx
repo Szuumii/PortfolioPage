@@ -19,16 +19,16 @@ export const descriptions = {
   opengl: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
   typescript: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
   fastapi: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-  cplusplus: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+  cplusplus: "C++ is the first language that I've ever learned. It gave me opportunities to create amazing projects and grow as a coder. This experience eventually led me to land my first internship",
   react: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
   git: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
   python: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-  assembly: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+  assembly: "During my studies I've had some experience with both RISC and CISC architectures. I've learned how to code using MIPS, x86 and x64 assembly languages. This gives me possibilities to work with lower abstraction levels as well",
   javascript: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
   security: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-  microcontrollers: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+  microcontrollers: "When I've signed up for ",
   postgresql: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-  linux: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+  linux: "Linux is my go to operating system for development. Combined with i3 tiling window manager it increases my productivity and control over every aspect of my evniornment. It also gives me powerfull automation command language bash that helps me deal with dull and repetetive tasks.",
   algo: "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
 }
 
@@ -116,7 +116,7 @@ export const techDiamond: Array<ITechnology[]> = [
     {
       id: 9,
       icon: icons.assembly,
-      title: "x86 and MIPS",
+      title: "Assembly",
       description: descriptions.assembly
     },
   ],
@@ -239,7 +239,7 @@ export const techGrid: Array<ITechnology[]> = [
     {
       id: 11,
       icon: icons.assembly,
-      title: "x86 and MIPS",
+      title: "Assembly",
       description: descriptions.assembly
     }
   ],

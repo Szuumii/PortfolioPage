@@ -22,7 +22,7 @@ export const aboutTable: IAboutInfo[] = [
       alt: "Computer Icon",
       height: "100%"
     },
-    description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo, itaque facere? Dicta alias qui iste omnis ea eligendi blanditiis similique perferendis voluptate perspiciatis reprehenderit sapiente quas voluptatem, labore, distinctio ipsum!"
+    description: "Computers have always been a great passion of mine. Since I was a kid I've always wondered how do they operate. Even now as an adult they keep me fascinated with their potential and tremendous possibilities that they offer."
   },
   {
     id: 2,
@@ -31,7 +31,7 @@ export const aboutTable: IAboutInfo[] = [
       alt: "Hat Icon",
       height: "70%"
     },
-    description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo, itaque facere? Dicta alias qui iste omnis ea eligendi blanditiis similique perferendis voluptate perspiciatis reprehenderit sapiente quas voluptatem, labore, distinctio ipsum!"
+    description: "My passion have pushed me to take up Computer Science as my major at Warsaw University of Technology. My studies provided me with skills and knowledge that allowed me to pursue carrer as a Web Developer."
   },
   {
     id: 3,
@@ -40,6 +40,6 @@ export const aboutTable: IAboutInfo[] = [
       alt: "Snowboard Icon",
       height: "100%"
     },
-    description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo, itaque facere? Dicta alias qui iste omnis ea eligendi blanditiis similique perferendis voluptate perspiciatis reprehenderit sapiente quas voluptatem, labore, distinctio ipsum!"
+    description: "Snowboarding is a hobby that I've been enjoying for more than 12 years now. I'm a certified instructor and a HUUUGE freestyle competition's fan. I hope to one day watch X-games Aspen live on site."
   }
 ]

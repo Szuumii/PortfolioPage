@@ -53,7 +53,7 @@
 }
 
 .tech-text {
-  padding: 5em 0 12em 0;
+  padding: 5em 4.5em 10em 4.5em;
   text-align: center;
 
   &__title {
@@ -61,8 +61,8 @@
     font-size: 2.5em;
   }
 
-  &__description { 
-    margin: 0;
+  &__description {
+    margin: 1em 0;
     font-size: 1.3em;
   }
 }
@@ -79,6 +79,10 @@
     &__column__icon--selected {
       width: 22vw;
     }
+  }
+
+  .tech-text {
+    padding: 5em 1em 10em 1em;
   }
   
 }

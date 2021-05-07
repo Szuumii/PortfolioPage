@@ -1,11 +1,11 @@
-import React from "react";
+import React, {useState} from "react";
 import { ITechnology, descriptions } from "./data";
 import {TechText, ITechText } from "./TechText";
 import {TechStack} from "./TechStack";
 
 export const TechContainer = () => {
 
-  const [selected, setSelected] = React.useState({ title: "React", description: descriptions.react});
+  const [selected, setSelected] = useState({ title: "React", description: descriptions.react});
 
   const select = (chosen: ITechText) => {
     setSelected(chosen);

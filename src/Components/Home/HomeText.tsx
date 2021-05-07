@@ -10,7 +10,7 @@ export const HomeText:FC<Props> = ({toggleOff}) => {
     <div className="home-text">
         <h4 className="home-text__title">Hello, I'm</h4>
         <h3 className="home-text__name">Jakub Szumski</h3>
-        <p className="home-text__description">I am Web Developer and Computer Science Student at Warsaw Univeristy of Technology</p>
+        <p className="home-text__description">I am a Web Developer and Computer Science Student at Warsaw Univeristy of Technology</p>
         <HomeButtons toggleOff={toggleOff}/>
       </div>
   );

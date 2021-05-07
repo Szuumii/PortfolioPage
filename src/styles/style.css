@@ -36,6 +36,7 @@
 .logo {
   margin-top: 1em;
   margin-left: 1.5vmax;
+  cursor: pointer;
 }
 
 .section-header {
@@ -104,6 +105,7 @@
 .logo {
   margin-top: 1em;
   margin-left: 1.5vmax;
+  cursor: pointer;
 }
 
 .section-header {
@@ -492,7 +494,7 @@
 }
 
 .tech-text {
-  padding: 5em 0 12em 0;
+  padding: 5em 4.5em 10em 4.5em;
   text-align: center;
 }
 
@@ -502,7 +504,7 @@
 }
 
 .tech-text__description {
-  margin: 0;
+  margin: 1em 0;
   font-size: 1.3em;
 }
 
@@ -512,6 +514,9 @@
   }
   .tech-stack__column__icon, .tech-stack__column__icon--selected {
     width: 22vw;
+  }
+  .tech-text {
+    padding: 5em 1em 10em 1em;
   }
 }
 
@@ -683,7 +688,7 @@
   }
 }
 
-.contact__form__email, .contact__form__subject, .contact__form__message {
+.contact__form__email, .contact__form__name, .contact__form__message {
   width: 30vw;
   margin: 1.5em;
   padding: 1em;
@@ -693,22 +698,22 @@
   color: #ECECEE;
 }
 
-.contact__form__email::-webkit-input-placeholder, .contact__form__subject::-webkit-input-placeholder, .contact__form__message::-webkit-input-placeholder {
+.contact__form__email::-webkit-input-placeholder, .contact__form__name::-webkit-input-placeholder, .contact__form__message::-webkit-input-placeholder {
   color: #ECECEE;
   font-size: 1.25em;
 }
 
-.contact__form__email:-ms-input-placeholder, .contact__form__subject:-ms-input-placeholder, .contact__form__message:-ms-input-placeholder {
+.contact__form__email:-ms-input-placeholder, .contact__form__name:-ms-input-placeholder, .contact__form__message:-ms-input-placeholder {
   color: #ECECEE;
   font-size: 1.25em;
 }
 
-.contact__form__email::-ms-input-placeholder, .contact__form__subject::-ms-input-placeholder, .contact__form__message::-ms-input-placeholder {
+.contact__form__email::-ms-input-placeholder, .contact__form__name::-ms-input-placeholder, .contact__form__message::-ms-input-placeholder {
   color: #ECECEE;
   font-size: 1.25em;
 }
 
-.contact__form__email::placeholder, .contact__form__subject::placeholder, .contact__form__message::placeholder {
+.contact__form__email::placeholder, .contact__form__name::placeholder, .contact__form__message::placeholder {
   color: #ECECEE;
   font-size: 1.25em;
 }
@@ -778,7 +783,7 @@
   height: 3em;
 }
 
-.contact__form__subject {
+.contact__form__name {
   height: 4em;
 }
 
@@ -789,6 +794,18 @@
 .contact__form__btn {
   margin: 1em 0 1em 0;
   text-align: center;
+}
+
+.contact__popup {
+  position: fixed;
+  border: 1px solid #FF6D70;
+  right: 0;
+  bottom: 15vh;
+}
+
+.contact__popup__inner {
+  background-color: #222A36;
+  padding: 2em;
 }
 
 .footer {
@@ -820,7 +837,7 @@
   .contact__form {
     width: 80%;
   }
-  .contact__form__email, .contact__form__subject, .contact__form__message {
+  .contact__form__email, .contact__form__name, .contact__form__message {
     width: 100%;
   }
 }
