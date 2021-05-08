@@ -1,5 +1,4 @@
 import React, {FC} from "react";
-import { IProject } from "./data";
 
 interface Props {
   id: number, 

@@ -1,5 +1,5 @@
 import React, {useState} from "react";
-import { ITechnology, descriptions } from "./data";
+import { descriptions } from "./data";
 import {TechText, ITechText } from "./TechText";
 import {TechStack} from "./TechStack";
 
