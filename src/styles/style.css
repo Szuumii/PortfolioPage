@@ -257,7 +257,7 @@
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  width: 31vw;
+  height: 45vw;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
