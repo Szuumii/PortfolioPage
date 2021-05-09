@@ -59,6 +59,7 @@
 
     &__message {
       @extend %input-base;
+      word-wrap: break-word;
       height: 8em;
     }
 

@@ -802,6 +802,7 @@
 }
 
 .contact__form__message {
+  word-wrap: break-word;
   height: 8em;
 }
 

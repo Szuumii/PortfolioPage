@@ -28,6 +28,9 @@ export const ContactForm:FC<Props> = ({toggle, showPopup}) => {
       alert(error.message);
     })
 
+    setName("");
+    setEmail("");
+    setMessage("");
   }
 
   return(

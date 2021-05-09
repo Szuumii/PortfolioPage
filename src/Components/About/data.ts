@@ -22,7 +22,7 @@ export const aboutTable: IAboutInfo[] = [
       alt: "Computer Icon",
       height: "100%"
     },
-    description: "Computers have always been a great passion of mine. Since I was a kid I've always wondered how they operate. As I grew older and kept learning I've discovered potential and capabilities that they offer."
+    description: "Computers have always been a great passion of mine. Since I was a kid I've always wondered how they operate. As I grew older and kept learning I've discovered their potential and the capabilities that they offer"
   },
   {
     id: 2,
@@ -31,7 +31,7 @@ export const aboutTable: IAboutInfo[] = [
       alt: "Hat Icon",
       height: "70%"
     },
-    description: "My passion have pushed me towards studies with Computer Science as my major at Warsaw University of Technology. They provided me with skills and knowledge that allowed me to pursue a carrer as a Web Developer."
+    description: "My passion has pushed me towards studies in Computer Science as my major at Warsaw University of Technology. It has provided me with the skills and knowledge that has allowed me to pursue a carrer as a Web Developer"
   },
   {
     id: 3,
@@ -40,6 +40,6 @@ export const aboutTable: IAboutInfo[] = [
       alt: "Snowboard Icon",
       height: "100%"
     },
-    description: "I'm also an active person. Snowboarding is a hobby that I've been enjoying for more than 12 years now. I'm a certified instructor and a huge freestyle competition's fan. My dream is to watch X Games Aspen live on site."
+    description: "I'm an active person. Snowboarding is a hobby that I have enjoyed for more than 12 years. I'm a certified instructor and a huge freestyle competition fan. My dream is to attend the X Games Aspen and watch it live"
   }
 ]
